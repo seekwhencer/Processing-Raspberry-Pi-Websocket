@@ -1,0 +1,69 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link href="favicon.ico" rel="shortcut icon" />
+        <title>RC Raspi</title>
+        <meta name="robots" content="index,follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <script type="text/javascript" src="./js/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/assets/jquery.storageapi.min.js"></script> 
+        
+        <script type="text/javascript" src="./js/assets/bootstrap.min.js"></script> 
+        <script type="text/javascript" src="./js/assets/bootstrap-slider.js"></script>
+        
+        <script type="text/javascript" src="./js/jquery.rc.js"></script>
+        <script type="text/javascript" src="./js/page.js"></script>
+      
+        
+        
+        <link rel="stylesheet" type="text/css" href="./css/assets/bootstrap.min.css" title="style" />
+        <link rel="stylesheet" type="text/css" href="./css/assets/bootstrap_slate.css" title="style" />
+        <link rel="stylesheet" type="text/css" href="./css/assets/bootstrap.slider.css" title="style" />
+        <link rel="stylesheet" type="text/css" href="./css/assets/fontawesome/font-awesome.min.css" title="style" />
+       
+        <link rel="stylesheet" type="text/css" href="./css/page.css" title="style" />
+        
+    </head>
+    <body>
+        
+        </div>
+        <div class="navbar-micro">
+            <strong>RC client</strong> &middot; Matthias Kallenbach &middot; seekwhencer.de
+        </div>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-right">
+                
+                <button class="btn btn-danger" style="display:none;" id="btnDisconnect">disconnect</button>
+            </div>
+            <div class="navbar-left">
+                
+            </div>
+         </div>
+       </nav>
+        <div id="rc">
+            <div class="page-panel">
+                <div class="row-fluid">
+                    <div class="col-xs-4"><a href="" data-action="turn-forward-left"><i class="fa fa-chevron-circle-up" style="transform: rotate(-45deg);"></i></a></div>
+                    <div class="col-xs-4"><a href="" data-action="move-forward"><i class="fa fa-chevron-circle-up"></i></a></div>
+                    <div class="col-xs-4"><a href="" data-action="turn-forward-right"><i class="fa fa-chevron-circle-up" style="transform: rotate(45deg);"></i></a></div>
+                </div>
+                <div class="row-fluid">
+                    <div class="col-xs-4"><a href="" data-action="rotate-left"><i class="fa fa-chevron-circle-left"></i></a></div>
+                    <div class="col-xs-4"></div>
+                    <div class="col-xs-4"><a href="" data-action="rotate-right"><i class="fa fa-chevron-circle-right"></i></a></div>
+                </div>
+                <div class="row-fluid">
+                    <div class="col-xs-4"><a href="" data-action="turn-backward-left"><i class="fa fa-chevron-circle-down" style="transform: rotate(45deg);"></i></a></div>
+                    <div class="col-xs-4"><a href="" data-action="move-backward"><i class="fa fa-chevron-circle-down"></i></a></div>
+                    <div class="col-xs-4"><a href="" data-action="turn-backward-right"><i class="fa fa-chevron-circle-down" style="transform: rotate(-45deg);"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="page-index">
+            <button class="btn btn-success" id="btnConnect">connect</button>
+        </div>
+    </body>
+</html>
